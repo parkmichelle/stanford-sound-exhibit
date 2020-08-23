@@ -1,1 +1,1 @@
-# StanfordSoundExhibit
+# The Stanford Sound Exhibit
