@@ -4,6 +4,31 @@
     <title>The Stanford Sound Exhibit</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"> 
     <style>
+      .piece {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+      }
+
+      .piece-img {
+        border: 14px solid #323232;
+        margin-bottom: 8px;
+      }
+
+      .piece-plaque {
+        margin-left: 12px;
+      }
+
+      html {
+        background-color: gray;
+      }
+      body {
+        background-color: white;
+        padding: 18px;
+        border: 4px solid lightgray;
+      }
       img {
         padding: 0; 
         display: block;
@@ -13,7 +38,8 @@
         max-width: 100%;
       }
       p {
-        font-family: Apple Symbols;
+        font-family: Avenir-light;
+        font-size: 14px;
       }
     </style>
   </head> 
@@ -27,15 +53,20 @@
     Here we go!
     <br>
     <br>
-    <img src="images/stop1.png">
+    </p>
+    <hr/>
+    <img src="images/stop1_new.png">
+    <p>
     Our first stop is the roundabout at the intersection of Campus Drive and Escondido Road.     
     </p>
     <img src="images/escondido_map.png">
     <p>
     Stand at the northwest corner of the intersection (the corner where Kimball Hall is). You've reached the first piece!
     </p> 
-    <img src="images/roundabout.png">
-    <img src="images/escondido_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/roundabout.png">
+      <img class="piece-plaque" src="images/escondido_plaque.png">
+    </div>
     <p>
     Make sure you're not completely blocking the sidewalk and close your eyes for a few seconds to listen to the sounds at this stop. Can you interpret what sounds are natural, a result of manmade objects, and/or coming directly from humans? Notice that this roundabout is an interesting mix of all three of these categories. Vehicles are passing by, birds might be chirping in the trees around you, and you may hear the occasional chatter of people passing by you.
     <br>
@@ -45,7 +76,8 @@
     <video width="100%" controls>
       <source src="images/roundabout.MOV">
     </video>
-    <img src="images/stop2.png">
+    <hr/>
+    <img src="images/stop2_new.png">
     <p>
     Now let's head on over to our next stop! Start walking over to Arillaga Dining. As you walk over, pay attention to how the sounds of vehicles and cars fade away as you walk away from the roundabout. What other changes can you hear as you move through space? 
     <br>
@@ -59,8 +91,10 @@
     <br>
     Now pay close attention to what you hear right now (outside Arrillaga) and walk towards the front entrance of Arrillaga.
     </p>
-    <img src="images/arillaga_front.png">
-    <img src="images/arillaga_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/arillaga_front.png">
+      <img class="piece-plaque" src="images/arillaga_plaque.png">
+    </div>
     <p>
     Remembering to focus on the change in sound, open the door, and walk inside. What did you notice?
 
@@ -78,14 +112,17 @@ Walk slowly up the stairs and notice how this change increases as you get closer
       <source src="images/arillaga_in.m4a">
       Your browser does not support the audio tag.
     </audio>
-    <img src="images/stop3.png">
+    <hr/>
+    <img src="images/stop3_new.png">
     <p>
     Our next stop is Green Library. Head over to the entrance in front of Meyer Green (right next to Coupa Cafe). Don't go in yet!
     </p>
-    <img src="images/green_front.png">
-    <img src="images/green_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/green_front.png">
+      <img class="piece-plaque" src="images/green_plaque.png">
+    </div>
     <p>
-    Take a seat at one of the benchies in front of the entrance and close your eyes. What do you hear? What sounds dominate, and what fades into the background? What do you imagine the sound transition will be like as you walk into Green? Similar to how you experienced Arrillaga, focus on the transition in sound and walk into Green Library.  
+    Take a seat at one of the benches in front of the entrance and close your eyes. What do you hear? What sounds dominate, and what fades into the background? What do you imagine the sound transition will be like as you walk into Green? Similar to how you experienced Arrillaga, focus on the transition in sound and walk into Green Library.  
     <br>
     <br>
     Tap your ID to get in. Upon turning right, you should see a staircase on the left. Use the stairs to go down to the basement.  
@@ -94,29 +131,35 @@ Walk slowly up the stairs and notice how this change increases as you get closer
     <p>
     Upon going down the staircase, turn left. You should see an abandoned construction area surrounded by caution tape.
     </p>
-    <img src="images/basement_const.png">
-    <img src="images/basement_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/basement_const.png">
+      <img class="piece-plaque" src="images/basement_plaque.png">
+    </div>
     <p>
     I found this site particularly interesting, because the vibe of what you see echoes the tone of what you hear. It sounds like what you'd imagine an abandoned construction area in the basement of Green to sound like. Lonely and a bit creepy.
     <br>
     <br>
     Now head back towards to the staircase, but try getting there by going between two rows of bookshelves.
     </p>
-    <img src="images/bookshelves.png">
-    <img src="images/bookshelves_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/bookshelves.png">
+      <img class="piece-plaque" src="images/bookshelves_plaque.png">
+    </div>
     <p>
     Stop in the middle of two rows, close your eyes, and take a few seconds to take in the sound around you. Notice that the surrounding bookshelves change the way sound reaches your ears. You can <b>hear</b> that you're in a tighter space than before.
     <br>
     <br>
-    Now continue back towards the staircase but this time, use the elevator to head to the second floor. Pay attention to the sounds the elevator makes as it makes its way to you.
+    Now continue back towards the staircase but this time, use the elevator to head to the third floor. Pay attention to the sounds the elevator makes as it makes its way to you.
     </p>
-    <img src="images/elevator.png">
-    <img src="images/elevator_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/elevator.png">
+      <img class="piece-plaque" src="images/elevator_plaque.png">
+    </div>
     <p>
     What do the sounds tell you about its age and structure? Can you use its sound to make any inference about its future?
     <br>
     <br>
-    Once you're on the second floor, get out of the elevator and turn right. We're heading over to listen to sounds you might have overlooked before from a drinking water fountain.
+    Once you're on the third floor, get out of the elevator and turn right. We're heading over to listen to sounds you might have overlooked before from a drinking water fountain.
     </p>
     <img src="images/tofountain.png">
     <p>
@@ -126,8 +169,10 @@ Walk slowly up the stairs and notice how this change increases as you get closer
     <p>
     You should see a water fountain on your right. As you approach, notice what sounds you hear. Try drinking some water! What does water actually sound like as it comes out of the fountain?
     </p>
-    <img src="images/fountain.png">
-    <img src="images/fountain_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/fountain.png">
+      <img class="piece-plaque" src="images/fountain_plaque.png">
+    </div>
     <p>
 Now head back to the elevator and go back to the first floor. Upon exiting the elevator, turn right and keep walking to the Bing Wing of Green. The path to get to the next exhibit in Green is a bit tricky, so bear with me here!
     <br>
@@ -150,37 +195,57 @@ Now head back to the elevator and go back to the first floor. Upon exiting the e
     <p>
     At the end of that hallway, turn right. You should see a wide and tall staircase to your right. Whew, we're at our next piece!
     </p>
-    <img src="images/expanse.png">
-    <img src="images/expanse_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/expanse.png">
+      <img class="piece-plaque" src="images/expanse_plaque.png">
+    </div>
     <p>
     This space is one of the more expansive and open spaces within a building on campus. Climb up the stairs and notice how differently sound travels and reverberates off the walls. How does your auditory experience contribute to your perception of this place? I thought the wide, echo-ey nature of the sounds made in this space augmented the awe I felt at the visual architecture of the space. Feel free to spend some time taking in the sounds of this place.
     <br>
     <br>
     Now head down the stairs and out the doors directly in front of you (after a bag check). The next stop is a bit hidden, and will require you to listen for a "whoosh" sound to find the source. Upon exiting Green, head to the bike racks to your left. Listen for the sound you think I'm referring to-- it's quite distinctive! Can you locate its source?
     </p>
-    <img src="images/green_racks.png">
-    <img src="images/green_racks_plaque.png">
+    <div class="piece">
+      <img class="piece-img" src="images/green_racks.png">
+      <img class="piece-plaque" src="images/green_racks_plaque.png">
+    </div>
     <p>
     For a recap, so far we've toured sounds that are inadvertently created by man-made objects such as cars and water fountains. We've also experienced sounds that are made by humans themselves (Arrillaga dining). In the last stop, we'll experience an environment that, though not obvious at first, was actively designed to achieve a certain sound.
     <br>
     <br>
-    <img src="images/stop4.png">
-    Head on over to the Windhover Contemplative Center. Windhover is technology-free zone, so you can put your phone away after reading the rest of this guide.
+    <hr/>
     </p>
-    <img src="images/windhover.png">
-    <img src="images/windhover_plaque.png">
+    <img src="images/stop4_new.png">
+    <p>
+    Head on over to the final stop of this exhibit-- the Windhover Contemplative Center. 
+    Windhover is technology-free zone, so you can put your phone away after reading the rest of this guide.
+    </p>
+    <img style="margin-bottom: 20px" src="images/windhover_map.png">
+    <div class="piece">
+      <img class="piece-img" src="images/windhoverNew.png">
+      <img class="piece-plaque" src="images/windhover_plaque.png">
+    </div>
     <p>
     Windhover was opened in 2014 to help the Stanford community reflect and meditate during the year. Here's the stated intent for the center from the Windhover website:
     <br>
     <br>
+    </p>
+    <div style="border: 2px solid #f0f0f0; padding: 12px; color: gray">
     <i>Windhover embodies the message that, in the 21st century, the quality of intellectual endeavor is directly linked to the fulfillment of emotional and spiritual needs. The hope is that the environment will be appreciated not just for what one sees, but how one feels and how that experience contributes to overall well-being. The university envisions that community members will visit regularly to replenish their inner spirits-- the source of their creativity, energy, and endurance.</i>
+    </div>
+    <p>
     <br>
     <br>
-    As you experience the center, notice how the sounds around you have been curated to accomplish this purpose. You'll need an ID card to get in, but if you happen to be unable to go in, there's a small pond at the back of the center (outside of the building) where you can sit and experience the sounds around you without an ID. Take time to recognize how the sounds here both shape and are shaped by the center’s physical structure, visuals, and its ultimate objective to help you reflect and replenish yourself. Also notice that your auditory experience might change when you remove this walking tour's digital mediation of your experience. But most of all, take time to decompress and enjoy the space!
+    As you experience the center, notice how the sounds around you have been curated to accomplish this purpose. You'll need an ID card to get in, but if you happen to be unable to go in, there's a small pond at the back of the center (outside of the building) where you can sit and experience the sounds around you without an ID.
     <br>
     <br>
+    Take time to recognize how the sounds here both shape and are shaped by the center's physical structure, visuals, and its ultimate objective to help you reflect and replenish yourself. Also notice that your auditory experience might change when you remove this walking tour's digital mediation of your experience. But most of all, take time to decompress and enjoy the space!
+    <br>
+    <hr/>
+    <img style="min-width: 200px; max-width: 200px" src="images/ty.png">
+    <hr/>
+    <p>
     Thank you for joining me on this tour, and I hope this opened up a new dimension of the Stanford campus for you to enjoy!
-    <br>
     If you enjoyed this experience, here are some other sound exhibits you might want to check out: 
     <br> 
     <br> 
